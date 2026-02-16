@@ -1,101 +1,136 @@
-import Image from "next/image";
+// app/page.js
+"use client";
+
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import Link from 'next/link';
+import HeroSlider from './components/HeroSlider';
+import StatsSection from './components/StatsSection';
+import LatestNews from './components/LatestNews';
+import TeamPreview from './components/TeamPreview';
+import PartnersSection from './components/PartnersSection';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="overflow-hidden">
+      <HeroSlider />
+      
+      {/* Section Présentation */}
+      <section className="py-20 bg-gradient-to-b from-white to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              data-aos="fade-right"
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                <span className="text-blue-600">Foullah Édifice FC</span>
+                <br />L'Excellence Tchadienne
+              </h2>
+              <p className="text-lg text-gray-700 mb-4">
+                Fondé en 2007 par Ibrahim Wang Laouna Foullah, notre club incarne les valeurs 
+                de <span className="font-semibold text-blue-600">Solidarité, Soutien et Victoire</span>. 
+                Depuis notre création, nous nous engageons à promouvoir les jeunes talents tchadiens 
+                et à représenter fièrement notre nation sur la scène africaine.
+              </p>
+              <p className="text-lg text-gray-700 mb-8">
+                Basés au Stade Omnisports Idriss Mahamat Ouya de N'Djaména, nous sommes devenus 
+                l'un des clubs les plus titrés du football tchadien, avec 4 championnats nationaux 
+                et de nombreuses participations aux compétitions continentales.
+              </p>
+              <Link 
+                href="/about" 
+                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-xl"
+              >
+                Découvrir Notre Histoire
+              </Link>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl"
+              data-aos="fade-left"
+            >
+              <Image
+                src="/images/foullah.jpg"
+                alt="Foullah Édifice FC - Équipe"
+                fill
+                className="object-cover"
+                priority
+              />
+            </motion.div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      <StatsSection />
+      <LatestNews />
+      <TeamPreview />
+      <PartnersSection />
+
+      {/* Section Stade */}
+      <section className="py-20 bg-blue-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl"
+              data-aos="zoom-in"
+            >
+              <Image
+                src="/images/foullah2.jpg"
+                alt="Stade Omnisports Idriss Mahamat Ouya"
+                fill
+                className="object-cover"
+              />
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              data-aos="fade-left"
+            >
+              <h2 className="text-4xl font-bold mb-6">Notre Forteresse</h2>
+              <p className="text-xl mb-4">
+                Stade Omnisports Idriss Mahamat Ouya
+              </p>
+              <p className="text-blue-200 mb-4">
+                Capacité : 20 000 - 30 000 spectateurs
+              </p>
+              <p className="text-lg mb-8">
+                Inauguré en 2000, ce stade multifonctionnel est le théâtre de nos plus grandes 
+                victoires. Chaque match, nos supporters créent une ambiance électrique qui 
+                porte l'équipe vers la victoire.
+              </p>
+              <div className="flex gap-4">
+                <Link 
+                  href="/stade" 
+                  className="bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition"
+                >
+                  Visite Virtuelle
+                </Link>
+                <Link 
+                  href="/billetterie" 
+                  className="border-2 border-white text-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-blue-900 transition"
+                >
+                  Billetterie
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
