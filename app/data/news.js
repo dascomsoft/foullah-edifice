@@ -8,7 +8,7 @@ export const allNews = [
     content: `
       <div class="space-y-6">
         <div class="relative h-64 w-full mb-6 rounded-xl overflow-hidden">
-          <img src="/images/foullah6.jpg" alt="Victoire de Foullah Édifice contre USM" class="object-cover w-full h-full" />
+          <img src="/images/foullah70.jpg" alt="Victoire de Foullah Édifice contre USM" class="object-cover w-full h-full" />
           <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <p class="text-white text-sm">Les joueurs célèbrent cette victoire importante</p>
           </div>
@@ -114,15 +114,15 @@ export const allNews = [
         </div>
       </div>
     `,
-    image: '/images/foullah6.jpg',
+    image: '/images/foullah70.jpg',
     date: '16 Février 2026',
     author: 'Service Communication',
     category: 'Match',
     readTime: '5 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullah6.jpg',
+      '/images/foullah70.jpg',
       '/images/foullah10.jpg',
       '/images/foullah20.jpg',
     ],
