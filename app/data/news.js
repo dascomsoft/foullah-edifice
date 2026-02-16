@@ -1,5 +1,135 @@
 // app/data/news.js
 export const allNews = [
+  // NOUVEAU MATCH DU 16 FEVRIER 2026 (placé en tête)
+  {
+    id: 13,
+    title: 'Victoire ÉCLATANTE ! Foullah Édifice bat USM 3-2 dans un match épique',
+    excerpt: 'Au terme d\'un match passionnant, Foullah Édifice s\'impose 3-2 face à USM pour la 15ème journée de la Ligue Provinciale de N\'Djaména.',
+    content: `
+      <div class="space-y-6">
+        <div class="relative h-64 w-full mb-6 rounded-xl overflow-hidden">
+          <img src="/images/foullah6.jpg" alt="Victoire de Foullah Édifice contre USM" class="object-cover w-full h-full" />
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+            <p class="text-white text-sm">Les joueurs célèbrent cette victoire importante</p>
+          </div>
+        </div>
+        
+        <div class="bg-yellow-100 p-6 rounded-xl my-8 text-center">
+          <p class="text-2xl font-bold text-yellow-800 mb-2">🏆 15ème JOURNÉE - LIGUE PROVINCIALE DE N'DJAMÉNA</p>
+          <p class="text-4xl font-black text-blue-800 mt-4 mb-2">FOULLAH ÉDIFICE 3 - 2 USM</p>
+          <p class="text-lg text-gray-700">16 Février 2026 - Stade Omnisports Idriss Mahamat Ouya</p>
+        </div>
+        
+        <p class="text-xl leading-relaxed font-semibold">Félicitations à toute l'équipe pour cette victoire magnifique ! 🔥🔥🔥</p>
+        
+        <div class="bg-green-50 p-6 rounded-xl my-8">
+          <p class="text-lg font-semibold text-green-800">⚽ Les buteurs du match :</p>
+          <ul class="mt-4 space-y-3">
+            <li class="flex items-center gap-3">
+              <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">1</span>
+              <span class="font-medium">Bakhit Djibrine (23e) - Sur penalty</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">2</span>
+              <span class="font-medium">Yves Allarabaye (45+2e) - Frappe splendide</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">3</span>
+              <span class="font-medium">Benjamin Merba (78e) - But de la victoire</span>
+            </li>
+          </ul>
+          <p class="mt-4 text-gray-600">USM avait réduit le score par deux fois (52e et 83e) mais n'a pas pu empêcher la victoire des bleus et ciel.</p>
+        </div>
+        
+        <h3 class="text-2xl font-bold mt-8 mb-4">Le résumé du match</h3>
+        
+        <div class="grid md:grid-cols-2 gap-6 my-8">
+          <div class="bg-gray-50 p-6 rounded-xl">
+            <h4 class="font-bold text-lg mb-3">1ère mi-temps</h4>
+            <p>Dès l'entame du match, Foullah Édifice impose son rythme. À la 23e minute, Bakhit Djibrine transforme un penalty avec sang-froid. L'équipe continue de pousser et juste avant la pause, Yves Allarabaye envoie une frappe magistrale dans la lucarne (45+2). 2-0 à la pause, une première période parfaitement maîtrisée.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-xl">
+            <h4 class="font-bold text-lg mb-3">2ème mi-temps</h4>
+            <p>USM revient des vestiaires avec de meilleures intentions et réduit le score à la 52e minute. Le match devient plus serré. À la 78e, Benjamin Merba surgit au second poteau et crucifie le gardien adverse : 3-1 ! USM marque un second but à la 83e, mais la défense tient bon. Victoire 3-2 !</p>
+          </div>
+        </div>
+        
+        <div class="bg-blue-50 p-6 rounded-xl my-8">
+          <p class="text-lg italic text-blue-800">"Quel match ! Les joueurs ont montré un cœur énorme. Nous avons su gérer les temps forts et faibles. Cette victoire est méritée et elle nous rapproche de notre objectif. Félicitations à toute l'équipe et merci aux supporters pour leur soutien sans faille !"</p>
+          <div class="mt-4 flex items-center">
+            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+              TJ
+            </div>
+            <div class="ml-3">
+              <p class="font-semibold">Toukam Julien</p>
+              <p class="text-sm text-gray-500">Entraîneur Principal</p>
+            </div>
+          </div>
+        </div>
+        
+        <h3 class="text-2xl font-bold mt-8 mb-4">Les statistiques du match</h3>
+        
+        <div class="grid grid-cols-2 gap-4 text-center mb-6">
+          <div class="bg-blue-600 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">55%</p>
+            <p class="text-sm">Possession</p>
+          </div>
+          <div class="bg-gray-700 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">45%</p>
+            <p class="text-sm">Possession</p>
+          </div>
+          <div class="bg-blue-600 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">16</p>
+            <p class="text-sm">Tirs</p>
+          </div>
+          <div class="bg-gray-700 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">10</p>
+            <p class="text-sm">Tirs</p>
+          </div>
+          <div class="bg-blue-600 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">7</p>
+            <p class="text-sm">Tirs cadrés</p>
+          </div>
+          <div class="bg-gray-700 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">5</p>
+            <p class="text-sm">Tirs cadrés</p>
+          </div>
+          <div class="bg-blue-600 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">8</p>
+            <p class="text-sm">Corners</p>
+          </div>
+          <div class="bg-gray-700 text-white p-4 rounded-xl">
+            <p class="text-3xl font-bold">4</p>
+            <p class="text-sm">Corners</p>
+          </div>
+        </div>
+        
+        <div class="bg-green-100 p-6 rounded-xl mt-8">
+          <p class="font-bold text-xl text-center text-green-800 mb-2">⭐ HOMME DU MATCH ⭐</p>
+          <p class="text-center text-lg">Yves Allarabaye - Un but magnifique et une activité incessante au milieu</p>
+        </div>
+        
+        <div class="mt-8 text-center">
+          <p class="text-2xl font-bold text-blue-800">🔵⚪ VICTOIRE ! FOULLAH ÉDIFICE FORT ! ⚪🔵</p>
+        </div>
+      </div>
+    `,
+    image: '/images/foullah6.jpg',
+    date: '16 Février 2026',
+    author: 'Service Communication',
+    category: 'Match',
+    readTime: '5 min',
+    authorImage: '/images/coachfoullah.jpg',
+    authorTitle: 'Service Presse',
+    gallery: [
+      '/images/foullah6.jpg',
+      '/images/foullah10.jpg',
+      '/images/foullah20.jpg',
+    ],
+    tags: ['Match', 'Victoire', 'USM', '15ème journée', 'Ligue Provinciale', '3-2', 'Félicitations'],
+  },
+
+  // Ancien match du 6 Janvier (id:1) - maintenant en deuxième position
   {
     id: 1,
     title: 'Foullah Édifice FC signe un partenariat historique avec Fura Sport',
@@ -44,6 +174,8 @@ export const allNews = [
     ],
     tags: ['Partenariat', 'Équipementier', 'Fura Sport', 'Développement', 'Sponsoring'],
   },
+
+  // ... (tous les autres articles restent identiques, juste avec leurs ids respectifs)
   {
     id: 2,
     title: 'Foullah Édifice accroché par Tourbillon (0-0) au Stade de Diguel',
@@ -122,6 +254,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Championnat', 'Tourbillon', 'Derby', 'Stade de Diguel'],
   },
+
   {
     id: 3,
     title: 'Victoire précieuse contre Gazelle FC (1-0) au Stade Paris Congo',
@@ -161,6 +294,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'Gazelle FC', 'Championnat', 'Paris Congo'],
   },
+
   {
     id: 4,
     title: 'Défaite amère face à Ferah FC (1-2)',
@@ -202,6 +336,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Défaite', 'Ferah FC', 'Championnat'],
   },
+
   {
     id: 5,
     title: 'Démonstration face à AS Colombe (2-0) au Stade de Farche',
@@ -235,6 +370,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'AS Colombe', 'Championnat', 'Stade Farche'],
   },
+
   {
     id: 6,
     title: 'FESTIVAL DE BUTS ! Foullah écrase Jeunes Talents 8-1 au Stade Paris Congo',
@@ -296,6 +432,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire historique', '8 buts', 'Triplé', 'Jeunes Talents', 'Paris Congo'],
   },
+
   {
     id: 7,
     title: 'Foullah s\'impose dans le choc face à AS Coton (2-1) au Stade Farche',
@@ -331,6 +468,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'AS Coton', 'Championnat', 'Stade Farche'],
   },
+
   {
     id: 8,
     title: 'Jour sans face à Sovotours (1-4) au Stade de Farcha',
@@ -369,7 +507,7 @@ export const allNews = [
     tags: ['Match', 'Défaite', 'Sovotours', 'Championnat', 'Stade Farcha'],
   },
 
-    {
+  {
     id: 9,
     title: 'Foullah Édifice démarre fort avec une victoire 3-0 contre Yves',
     excerpt: 'Pour la première journée du championnat, Foullah Édifice s\'impose largement 3-0 face à Yves.',
@@ -408,6 +546,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'Triplé', 'Yves Allarabaye', 'Journée 1'],
   },
+
   {
     id: 10,
     title: 'Foullah s\'impose 2-0 face à Galactik en déplacement',
@@ -440,6 +579,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'Galactik', 'Journée 2'],
   },
+
   {
     id: 11,
     title: 'Foullah bat Emat 1-0 et enchaîne une troisième victoire',
@@ -472,6 +612,7 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'Emat', 'Journée 3'],
   },
+
   {
     id: 12,
     title: 'Démonstration ! Foullah écrase As Dgssie 4-1',
@@ -505,5 +646,4 @@ export const allNews = [
     ],
     tags: ['Match', 'Victoire', 'As Dgssie', 'Journée 4', '4 buts'],
   },
-
 ];
