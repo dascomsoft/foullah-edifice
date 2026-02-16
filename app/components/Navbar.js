@@ -26,9 +26,9 @@ export default function Navbar() {
     { href: '/equipe', label: 'Équipe' },
     { href: '/palmares', label: 'Palmarès' },
     { href: '/actualites', label: 'Actualités' },
-    { href: '/calendrier', label: 'Calendrier' },
-    { href: '/stade', label: 'Stade' },
-    { href: '/boutique', label: 'Boutique' },
+    // { href: '/calendrier', label: 'Calendrier' },
+    // { href: '/stade', label: 'Stade' },
+    // { href: '/boutique', label: 'Boutique' },
     { href: '/contact', label: 'Contact' },
   ];
 
