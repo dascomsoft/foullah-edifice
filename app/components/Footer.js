@@ -48,6 +48,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Liens Rapides</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-gray-400 hover:text-blue-400 transition">Le Club</Link></li>
+                <li><Link href="/president" className="text-gray-400 hover:text-blue-400 transition">Président</Link></li> {/* Nouveau */}
               <li><Link href="/histoire" className="text-gray-400 hover:text-blue-400 transition">Histoire</Link></li>
               <li><Link href="/equipe" className="text-gray-400 hover:text-blue-400 transition">Équipe</Link></li>
               <li><Link href="/palmares" className="text-gray-400 hover:text-blue-400 transition">Palmarès</Link></li>
@@ -66,11 +67,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone size={18} className="text-blue-400" />
-                <span>+235 XX XX XX XX</span>
+                <span>+235 66 20 97 53</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail size={18} className="text-blue-400" />
-                <span>contact@foullahedifice.td</span>
+                <span>foullahedifice2007@gmail.com</span>
               </li>
             </ul>
           </div>

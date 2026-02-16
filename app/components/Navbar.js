@@ -21,6 +21,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Accueil' },
+      { href: '/president', label: 'Président' }, 
     { href: '/about', label: 'Le Club' },
     { href: '/histoire', label: 'Histoire' },
     { href: '/equipe', label: 'Équipe' },
