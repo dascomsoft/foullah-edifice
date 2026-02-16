@@ -62,7 +62,7 @@ export default function HistoirePage() {
       {/* Hero Section */}
       <section className="relative h-[400px] bg-blue-900">
         <Image
-          src="/images/foullahnational.jpg"
+          src="/images/foullah6.jpg"
           alt="Histoire de Foullah Édifice FC"
           fill
           className="object-cover opacity-30"

@@ -51,7 +51,7 @@ export const allNews = [
     content: `
       <div class="space-y-6">
         <div class="relative h-64 w-full mb-6 rounded-xl overflow-hidden">
-          <img src="/images/foullahresult.jpg" alt="Match Foullah vs Tourbillon" class="object-cover w-full h-full" />
+          <img src="/images/foullah6.jpg" alt="Match Foullah vs Tourbillon" class="object-cover w-full h-full" />
           <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <p class="text-white text-sm">Le Stade de Diguel a vibré pour ce derby</p>
           </div>
@@ -108,15 +108,15 @@ export const allNews = [
         <p>Avec ce résultat, Foullah Édifice reste dans le top 3 du championnat et confirme sa solidité défensive. Le prochain match sera crucial pour la course au titre.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah6.jpg',
     date: '20 Janvier 2026',
     author: 'Service Communication',
     category: 'Match',
     readTime: '6 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah6.jpg',
       '/images/foullah4.jpg',
       '/images/foullah5.jpg',
     ],
@@ -147,15 +147,15 @@ export const allNews = [
         <p>Avec cette victoire, Foullah Édifice se rapproche du leader et reste en course pour le titre. Prochain rendez-vous : la réception de Ferah FC.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah10.jpg',
     date: '05 Janvier 2026',
     author: 'Service Communication',
     category: 'Match',
     readTime: '4 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah10.jpg',
       '/images/foullah4.jpg',
       '/images/foullah.jpg',
     ],
@@ -188,15 +188,15 @@ export const allNews = [
         <p>Cette défaite est un avertissement pour le club, qui devra se montrer plus vigilant à l'avenir pour rester dans la course au titre.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah20.jpg',
     date: '30 Décembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '4 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah20.jpg',
       '/images/foullah5.jpg',
       '/images/foullah6.jpg',
     ],
@@ -221,15 +221,15 @@ export const allNews = [
         <p>Avec cette victoire, Foullah Édifice enchaîne une troisième victoire consécutive et confirme son statut de prétendant au titre.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah2.jpg',
     date: '23 Décembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '3 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah6.jpg',
       '/images/foullah2.jpg',
       '/images/foullah4.jpg',
     ],
@@ -242,7 +242,7 @@ export const allNews = [
     content: `
       <div class="space-y-6">
         <div class="relative h-64 w-full mb-6 rounded-xl overflow-hidden">
-          <img src="/images/foullahresult.jpg" alt="Fête des buts" class="object-cover w-full h-full" />
+          <img src="/images/foullah65.jpg" alt="Fête des buts" class="object-cover w-full h-full" />
           <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <p class="text-white text-sm">Les joueurs célèbrent cette victoire historique</p>
           </div>
@@ -282,15 +282,15 @@ export const allNews = [
         </div>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah65.jpg',
     date: '19 Décembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '5 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Entraîneur Principal',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah65.jpg',
       '/images/foullah6.jpg',
       '/images/foullah5.jpg',
     ],
@@ -317,15 +317,15 @@ export const allNews = [
         <p>"Nous n'avons jamais douté", a confié le capitaine. "Même menés, nous savions que nous pouvions revenir. Cette équipe a du caractère."</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/fullah30.jpg',
     date: '08 Décembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '3 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/fullah30.jpg',
       '/images/foullah.jpg',
       '/images/foullah2.jpg',
     ],
@@ -354,15 +354,15 @@ export const allNews = [
         <p>Cette défaite sert d'avertissement. Le club devra se remobiliser rapidement pour les prochains rendez-vous.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah40.jpg',
     date: '05 Décembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '4 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah40.jpg',
       '/images/foullah4.jpg',
       '/images/foullah5.jpg',
     ],
@@ -376,7 +376,7 @@ export const allNews = [
     content: `
       <div class="space-y-6">
         <div class="relative h-64 w-full mb-6 rounded-xl overflow-hidden">
-          <img src="/images/foullahresult.jpg" alt="Match Foullah vs Yves" class="object-cover w-full h-full" />
+          <img src="/images/foullah45.jpg" alt="Match Foullah vs Yves" class="object-cover w-full h-full" />
           <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <p class="text-white text-sm">Foullah Édifice célèbre sa victoire inaugurale</p>
           </div>
@@ -394,15 +394,15 @@ export const allNews = [
         <p>"C'est le début de rêve", a commenté l'entraîneur Djimta Yamtamadji. "Trois buts, trois points, une prestation solide. Nous lançons parfaitement notre saison."</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah45.jpg',
     date: '29 Octobre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '3 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah45.jpg',
       '/images/foullah.jpg',
       '/images/foullah4.jpg',
     ],
@@ -426,15 +426,15 @@ export const allNews = [
         <p>Deux matches, deux victoires, 5 buts marqués, 0 encaissé : Foullah Édifice réalise un début de saison parfait.</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah50.jpg',
     date: '3 Novembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '3 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah50.jpg',
       '/images/foullah2.jpg',
       '/images/foullah5.jpg',
     ],
@@ -458,15 +458,15 @@ export const allNews = [
         <p>Trois matches, trois victoires, toujours 0 but encaissé. Une défense de fer !</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah55.jpg',
     date: '19 Novembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '3 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah55.jpg',
       '/images/foullah6.jpg',
       '/images/foullah.jpg',
     ],
@@ -491,15 +491,15 @@ export const allNews = [
         <p>Avec 4 victoires en 4 matches, 10 buts marqués et 1 seul encaissé, Foullah Édifice réalise un début de saison historique !</p>
       </div>
     `,
-    image: '/images/foullahresult.jpg',
+    image: '/images/foullah60.jpg',
     date: '23 Novembre 2025',
     author: 'Service Communication',
     category: 'Match',
     readTime: '4 min',
-    authorImage: '/images/coachfoullah.jpg',
+    authorImage: '/images/foullah.jpg',
     authorTitle: 'Service Presse',
     gallery: [
-      '/images/foullahresult.jpg',
+      '/images/foullah60.jpg',
       '/images/foullah5.jpg',
       '/images/foullah4.jpg',
     ],
